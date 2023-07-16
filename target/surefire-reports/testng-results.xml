@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[execution started]]>
+    </line>
+    <line>
+      <![CDATA[Execution Ended]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-07-16T16:43:32 IST" name="Surefire suite" finished-at="2023-07-16T16:44:17 IST" duration-ms="45717">
+    <groups>
+    </groups>
+    <test started-at="2023-07-16T16:43:32 IST" name="Surefire test" finished-at="2023-07-16T16:44:17 IST" duration-ms="45717">
+      <class name="Testcases.TC_1">
+        <test-method is-config="true" signature="executionStart()[pri:0, instance:Testcases.TC_1@bef2d72]" started-at="2023-07-16T16:43:32 IST" name="executionStart" finished-at="2023-07-16T16:43:32 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[execution started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- executionStart -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.TC_1@bef2d72]" started-at="2023-07-16T16:43:32 IST" name="setup" finished-at="2023-07-16T16:44:11 IST" duration-ms="39119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login1()[pri:0, instance:Testcases.TC_1@bef2d72]" started-at="2023-07-16T16:44:11 IST" name="login1" finished-at="2023-07-16T16:44:17 IST" duration-ms="6494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login1 -->
+        <test-method is-config="true" signature="executionEnd()[pri:0, instance:Testcases.TC_1@bef2d72]" started-at="2023-07-16T16:44:18 IST" name="executionEnd" finished-at="2023-07-16T16:44:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution Ended]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- executionEnd -->
+      </class> <!-- Testcases.TC_1 -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
